@@ -1,0 +1,140 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+body{
+  font-family: "Montserrat";
+}
+.container-fluid{
+  padding: 3% 15%;
+
+}
+.headline{
+  font-size: "Montserrat-Black";
+  font-size: 3.5em;
+  line-height: 1.5;
+}
+.rotate{
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  width: 60%;
+
+    }
+
+/* NAvigation br */
+.navbar-brand{
+  font-family: "Ubuntu";\
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.nav-item{
+
+  padding: 0 8px;
+}
+.nac-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.row{
+  padding-top: 3%;
+}
+/* Download Button */
+.btn{
+margin: 5% 3% 5% 0;
+
+}
+/* Features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+.feature-box{
+  text-align:  center;
+  padding: 5%;
+}
+.icon{
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+h2{
+  font-family: "Montserrat-Bold" ,sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3{
+  font-family: "Montserrat"
+  font-weight: bold;
+}
+p{
+  color: grey;
+}
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #EF8172;
+  color: #fff;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.oneway{
+  line-height: 1.5;
+}
+.testimonials-image{
+  border-radius: 150px;
+  margin: 20px;
+}
+#press{
+  background-color: #EF8172;
+  text-align: center;
+}
+.pres-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+#pricing{
+  margin: 130px 0 130px 0;
+ppadding: 100px;
+text-align: center;
+
+}
+.pricing-coloumn{
+  padding: 3% 2%;
+}
+@media (max-width: 576px) {
+  .title{
+    text-align: center;
+  }
+  .rotate{
+    transform: rotate(0);
+  }
+ }
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3%;
+  text-align: center;
+  line-height: 1.5;
+}
+.h3cta{
+  font-size: "Montserrat-Black";
+  font-size: 3.5em;
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 60px;
+}
+.icons1{
+  margin: 0.4rem;
+}
