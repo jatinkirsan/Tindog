@@ -109,8 +109,8 @@ text-align: center;
 .pricing-coloumn{
   padding: 3% 2%;
 }
-@media (max-width: 576px) {
-  .title{
+@media (max-width: 984px) {
+  #title{
     text-align: center;
   }
   .rotate{
